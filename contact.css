@@ -1,0 +1,25 @@
+body,html{
+height:70%;
+}
+.level0{
+border-color: black;
+border-style:solid;
+
+width:50%;
+margin:auto;
+margin-top:10%;
+}
+#message{
+
+
+
+}
+#submit{
+
+}
+form{
+padding:3%;
+}
+#fname{
+  width:50%;
+}

@@ -1,0 +1,407 @@
+/* body
+{
+background-image: url("main.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+} */
+#about5{
+  display:none;
+}
+#ching{
+  visibility: hidden;
+  display: inline-block;
+}
+#hig {}
+
+.dropdown {
+  display: none;
+}
+
+#main11 {
+  display: none;
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+
+}
+
+/* ........................header............*/
+#twitter {
+  width: 11%;
+}
+
+#twitter1 {
+  width: 1.5%;
+}
+
+#about1, #about2, #about3, #about4, #stuti1 {
+  font-size: 1.3vw;
+  display: inline-block;
+  font-weight: bold;
+  font-family: arial;
+  float: right;
+  margin-left: 3%;
+}
+
+.menuBar {
+  display: inline-block;
+  width: 90%;
+}
+
+.Stuti {
+  display: inline-block;
+  width: 7%;
+}
+
+.menu {
+  background-color: white;
+  display: inline-flex;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+  z-index: 1;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logos {
+  width: 140%;
+}
+
+.logo {
+  padding-right: 1.5%;
+  width: 8%;
+}
+
+.logo1 {
+  padding-right: 1.5%;
+  width: 1.5%;
+}
+
+.skillLabel {
+  width: 100%;
+  margin: auto;
+ margin-bottom:4%;
+ padding-top: 6%;
+  height: 70%;
+}
+#skilllorem{
+  font-size: 2vw;
+}
+#html, #css, #js {
+  margin-top: 5%;
+  border-radius: 0.8vw;
+  border-bottom-left-radius: 0;
+  font-weight: bold;
+  font-family: arial;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#first, #second {
+  width: 49%;
+  display: inline-block;
+}
+
+#bbor {
+  width: 95%;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+#bbor1 {
+  width: 80%;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+#bbor2 {
+  width: 70%;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+#prof {
+  font-size: 2.5vw;
+  font-family: arial;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.percent1 {
+  display: inline-block;
+  position: relative;
+  left: 3%;
+}
+
+.percent {
+  display: inline-block;
+  float: right;
+}
+
+#second {
+  position: relative;
+}
+
+#first {}
+
+#work {
+  width: 90%;
+  border-radius: 1vw;
+  position: relative;
+  left: 9%;
+}
+
+.skill2 {
+  width: 83%;
+  margin: auto;
+}
+
+/* ........................main top block ............*/
+.container {
+  width: 100%;
+  height: 100%;
+  /*height:640px;*/
+  background-color: white;
+  position: relative;
+
+}
+
+.inner {
+  background-color: white;
+  display: inline-block;
+  font-size: 6vw;
+  width: 30%;
+  position: relative;
+  top: 35%;
+  left: 10%;
+  font-family: 'Dancing Script', cursive;
+}
+
+#main {
+  display: inline-block;
+  width:45%;
+  float: right;
+  margin-top: 8%;
+}
+
+#hello {
+  display: inline-block;
+  margin: 0;
+}
+
+#line {
+  margin: 0;
+  height: 2px;
+  ;
+  width: 15%;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke-color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  border-style: solid;
+  border: none;
+  border-bottom-style: solid;
+  font-size: 120%;
+  text-decoration: none;
+  transition: font-size.3s;
+}
+
+/* .......................marching block...........................*/
+.mid {
+  background-color: RGB(217, 126, 80);
+  background-image: url("design.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#march {
+  font-size: 4vw;
+  box-sizing: border-box;
+  padding: 3%;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* ........................Bottom block..................................*/
+.bottom {
+
+  height: 80%;
+  display: inline-block;
+  position: relative;
+  top: 2%;
+  margin:auto;
+  padding-top: 10%;
+}
+
+.bottom1 {
+  width: 30%;
+  font-size: 1.8vw;
+  display: inline-block;
+  position: relative;
+  bottom: 14%;
+  padding-left:8%;
+}
+#hig{
+  font-size: 100%;
+}
+
+.bottom2 {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
+#Ad{
+  margin:auto;
+}
+.main2 {
+  padding-left: 10%;
+  width:35%;
+  display: inline-block;
+}
+
+/* ...........................footer.......................................*/
+footer {
+  background-color: RGB(255, 240, 241);
+  background-image: url("design.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#shukla {
+  font-size: 2vw;
+  font-family: arial;
+  font-weight: bold;
+}
+
+/* ......................................................................*/
+.front {
+  height: 700px;
+}
+
+.para {
+  display: inline-block;
+  position: relative;
+  bottom: 70px
+}
+
+.wing {
+  width: 44%;
+  display: inline-block;
+}
+
+.wings {
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.level0 {
+  margin-top: 5%;
+  width: 100%;
+  margin: auto;
+  height: 70%;
+  margin-bottom: 20%;
+}
+
+#message {
+  width: 100%;
+}
+
+#contactLabel {
+  display: inline-block;
+  font-size: 2.5vw;
+  font-family: arial;
+  border-bottom: solid;
+  font-weight: bold;
+  margin-top: 7%;
+}
+
+#small {
+  margin-left: 2%;
+}
+
+#form {
+  width: 30%;
+  margin: auto;
+}
+
+#submit {
+  width: 22%;
+  padding: 3%;
+  background-color: #042e45;
+  color: white;
+  border-radius: 1vw;
+  position: relative;
+  left: 70%;
+}
+
+#fname, #fnumber, #message {
+  width: 80%;
+  border-radius: 1vw;
+  padding: 5%;
+  font-weight: bold;
+  font-size: 1vw;
+  border-width: thin;
+  margin: 2%;
+}
+
+#otp {
+  border-radius: 1vw;
+  border-width: thin;
+  margin: 2%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.level1 {
+  height: 100%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  display: none;
+}
+
+#sent {
+  padding: 1%;
+  background-color: white;
+  border: 1px solid #888;
+  width: 7%;
+  margin: auto;
+  margin-top: 25%;
+  font-size: 1vw;
+}

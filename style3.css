@@ -1,0 +1,420 @@
+/* body
+{
+background-image: url("main.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+} */
+
+.dropdown {
+  display: none;
+}
+
+#main11 {
+  display: none;
+}
+
+html, body {
+  height: 100%;
+  width:100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+
+
+}
+
+/* ........................header............*/
+#twitter {
+  width: 23%;
+}
+
+#twitter1 {
+  width: 5%;
+}
+#about1, #about5, #about3, #about4,#stuti1{
+  font-size:0.5rem;
+  display: inline-block;
+  font-weight: bold;
+  font-family: arial;
+  float: right;
+  margin-left: 3%;
+}
+
+#about2{
+  display: none;
+}
+.menuBar {
+  display: inline-block;
+  width: 90%;
+
+}
+
+.Stuti {
+  display: inline-block;
+  width:7%;
+}
+#stuti1{
+  font-size:0.5em;
+}
+
+.menu {
+  background-color: white;
+  display: inline-flex;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logos {
+  width: 90%;
+  max-width: 90%;
+
+}
+
+.logo {
+  padding-right: 1.5%;
+  width: 17%;
+  position:relative;
+  bottom:1rem;
+
+}
+
+.logo1 {
+  padding-right: 1.5%;
+  width: 4%;
+}
+
+.skillLabel {
+  width: 100%;
+  padding:0;
+  padding-top:1%;
+}
+
+#html, #css, #js {
+  margin-top: 5%;
+  border-radius: 0.8vw;
+  border-bottom-left-radius: 0;
+  font-weight: bold;
+  font-size:0.5rem;
+  font-family: arial;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#first, #second {
+  width: 49%;
+  display: inline-block;
+}
+
+#bbor {
+  width: 95%;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+#bbor1 {
+  width: 80%;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+#bbor2 {
+  width: 70%;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+#prof {
+  font-size:0.7rem;
+  font-family: arial;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.percent1 {
+  display: inline-block;
+  position: relative;
+  left: 3%;
+}
+
+.percent {
+  display: inline-block;
+  float: right;
+}
+
+#second {
+  position: relative;
+}
+
+#first {}
+
+#work {
+  width: 90%;
+  border-radius: 1vw;
+  position: relative;
+  left: 9%;
+}
+
+.skill2 {
+  width:89%;
+  margin: auto;
+}
+
+/* ........................main top block ............*/
+.container {
+   padding-top:10%;
+  height:50%;
+  width: 94%;
+
+}
+
+.inner {
+  background-color: transparent;
+z-index: -1;
+  display: inline-block;
+  font-size: 1.3rem;
+  width: 30%;
+  position:relative;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#main {
+  display: inline-block;
+  width:70%;
+  float: right;
+  position:relative;
+  top:20%;
+  z-index: -2;
+
+
+
+
+}
+
+#hello {
+  display: inline-block;
+  margin: 0;
+}
+
+
+#line {
+  margin: 0;
+  height: 2px;
+
+  width: 15%;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke-color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  border-style: solid;
+  border: none;
+  border-bottom-style: solid;
+  font-size: 120%;
+  text-decoration: none;
+  transition: font-size.3s;
+}
+
+/* .......................marching block...........................*/
+.mid {
+  background-color: RGB(217, 126, 80);
+  background-image: url("design.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#march {
+  font-size: 4vw;
+  box-sizing: border-box;
+  padding: 3%;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* ........................Bottom block..................................*/
+.bottom {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  bottom:6%;
+  margin-top:10%;
+
+}
+
+.bottom1 {
+  width: 35%;
+  font-size: 0.45rem;
+  display: inline-block;
+  position: relative;
+  bottom:1rem;
+
+}
+#hig{
+  margin:0;
+  margin-bottom:0.4rem;
+}
+
+.main2 {
+  width: 52%;
+  display: inline-block;
+  padding-top:0;
+
+}
+
+/* ...........................footer.......................................*/
+footer {
+  background-color: RGB(255, 240, 241);
+  background-image: url("design.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top:15%;
+}
+
+#shukla {
+  font-size:0.5rem;
+  font-family: arial;
+  font-weight: bold;
+}
+
+/* ......................................................................*/
+.front {
+  height: 700px;
+}
+
+.para {
+  display: inline-block;
+  position: relative;
+  bottom: 70px
+}
+
+.wing {
+  width: 44%;
+  display: inline-block;
+}
+
+.wings {
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.level0 {
+  margin-top: 5%;
+  padding-top: 12%;
+  width: 100%;
+  margin: auto;
+  margin-bottom:3%;
+}
+
+#message {
+  width: 100%;
+}
+
+#contactLabel {
+  display: inline-block;
+  font-size:0.8rem;
+  font-family: arial;
+  border-bottom: solid;
+  font-weight: bold;
+  margin-top: 7%;
+}
+
+#small {
+  margin-left: 2%;
+  font-size:0.5rem;
+}
+
+#form {
+  width: 50%;
+  margin: auto;
+}
+
+#submit {
+  width: 30%;
+  padding: 3%;
+  background-color: #042e45;
+  color: white;
+  border-radius: 1vw;
+  position: relative;
+  float:right;
+  margin-right:10%;
+}
+
+#fname, #fnumber, #message {
+  width: 80%;
+  border-radius: 1vw;
+  padding: 5%;
+  font-weight: bold;
+  font-size:0.5rem;
+  border-width: thin;
+  margin: 2%;
+}
+
+#otp {
+  border-radius: 1vw;
+  border-width: thin;
+  margin: 2%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.level1 {
+  height: 100%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  display: none;
+}
+
+#sent {
+  padding: 1%;
+  background-color: white;
+  border: 1px solid #888;
+  width: 7%;
+  margin: auto;
+  margin-top: 25%;
+  font-size: 1vw;
+}
+#skilllorem{
+  width:200%;
+  font-size: 0.6rem;
+  font-size: 0.5rem;
+  display: inline-block;
+  position: relative;
+  bottom:1rem;
+
+
+
+}

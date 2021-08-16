@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" >
+    <title></title>
+  </head>
+  <body>
+  <div class="level0" >
+    <form id="form" id="form">
+
+      <label for="fname">Your name: </label>
+      <input type="text" id="fname" name="fname" placeholder="Full name"  required autofocus/>
+        <br /><br /><label for="fnumber">Contact no.: </label>
+      <input type="tel" id="fnumber" name="fnumber" pattern="[6-9][{1}[0-9]{9}" required size="12" placeholder="phone no.">
+        <br /><br /><small>Enter the OTP recieved:</small>
+      <input type="password" id="otp" name="otp" maxlength="4" size="3"/ required>
+
+      <br /><br /><textarea id="message" placeholder="type your message here." name="message" required></textarea>
+    <br />  <input type="submit" id="submit" value="send" />
+
+      </form>
+
+    </div>
+  </body>
+</html>
